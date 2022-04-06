@@ -1,0 +1,3 @@
+https://go.dev/
+
+modulos: go mod init go_example
