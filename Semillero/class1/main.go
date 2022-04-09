@@ -88,3 +88,8 @@ func main() {
 // 	suma = x + y
 // 	return
 // }
+
+//  CREACION DE "METODO" PARA UNA ESTRUCTURA
+// func (obj Persona) saludar(){
+// 	fmt.Println("Hola")
+// }
