@@ -9,6 +9,12 @@ type Persona struct {
 	edad   string
 }
 
+//Heredar
+type Empleado struct {
+	Persona
+	cargo string
+}
+
 func main() {
 	a.Println("Hello world!")
 
@@ -63,6 +69,12 @@ func main() {
 	// todos los datos se inicializan
 	persona := Persona{nombre: "Juan", edad: "23"}
 	a.Println(persona)
+
+	// HEREDAR
+	// empleado := Empleado{}
+	// empleado.cargo = "Programador"
+	// empleado.nombre = "Juan"
+	// a.Println(empleado)
 
 	// --------- IO -----------
 	a.Println("Ingrese su nombre: ")
